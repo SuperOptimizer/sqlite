@@ -1,0 +1,21 @@
+# Fuzzer build directories
+build_*
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
